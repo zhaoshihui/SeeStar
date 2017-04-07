@@ -277,6 +277,7 @@
 				TargetAttributes = {
 					3E22242C1E9730E200F4C7FB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E3X52JQ9WH;
 						ProvisioningStyle = Automatic;
 					};
 					3E2224451E9730E200F4C7FB = {
@@ -496,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3X52JQ9WH;
 				INFOPLIST_FILE = SeeStar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -508,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3X52JQ9WH;
 				INFOPLIST_FILE = SeeStar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -581,6 +584,7 @@
 				3E22245C1E9730E200F4C7FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E22245D1E9730E200F4C7FB /* Build configuration list for PBXNativeTarget "SeeStarTests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +593,7 @@
 				3E22245F1E9730E200F4C7FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E2224601E9730E200F4C7FB /* Build configuration list for PBXNativeTarget "SeeStarUITests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +602,7 @@
 				3E2224621E9730E200F4C7FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
