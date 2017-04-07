@@ -19,6 +19,7 @@
 		3E2224661E9730F100F4C7FB /* 1_star_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2224641E9730F100F4C7FB /* 1_star_2@3x.png */; };
 		3E2224681E97314600F4C7FB /* grass.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E2224671E97314600F4C7FB /* grass.gif */; };
 		3E22246F1E97335F00F4C7FB /* StarRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E22246E1E97335F00F4C7FB /* StarRainViewController.m */; };
+		3E2224761E973DD100F4C7FB /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2224751E973DD100F4C7FB /* UIView+frameAdjust.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,9 @@
 		3E2224671E97314600F4C7FB /* grass.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = grass.gif; path = ../../grass.gif; sourceTree = "<group>"; };
 		3E22246D1E97335F00F4C7FB /* StarRainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRainViewController.h; sourceTree = "<group>"; };
 		3E22246E1E97335F00F4C7FB /* StarRainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRainViewController.m; sourceTree = "<group>"; };
+		3E2224731E973B9800F4C7FB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3E2224741E973DD100F4C7FB /* UIView+frameAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAdjust.h"; sourceTree = "<group>"; };
+		3E2224751E973DD100F4C7FB /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 				3E22243E1E9730E200F4C7FB /* LaunchScreen.storyboard */,
 				3E2224411E9730E200F4C7FB /* Info.plist */,
 				3E2224301E9730E200F4C7FB /* Supporting Files */,
+				3E2224731E973B9800F4C7FB /* PrefixHeader.pch */,
 			);
 			path = SeeStar;
 			sourceTree = "<group>";
@@ -189,6 +194,8 @@
 		3E2224701E97338300F4C7FB /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3E2224741E973DD100F4C7FB /* UIView+frameAdjust.h */,
+				3E2224751E973DD100F4C7FB /* UIView+frameAdjust.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -349,6 +356,7 @@
 			files = (
 				3E2224381E9730E200F4C7FB /* ViewController.m in Sources */,
 				3E2224351E9730E200F4C7FB /* AppDelegate.m in Sources */,
+				3E2224761E973DD100F4C7FB /* UIView+frameAdjust.m in Sources */,
 				3E22246F1E97335F00F4C7FB /* StarRainViewController.m in Sources */,
 				3E2224321E9730E200F4C7FB /* main.m in Sources */,
 			);
@@ -498,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3X52JQ9WH;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SeeStar/PrefixHeader.pch";
 				INFOPLIST_FILE = SeeStar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -511,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3X52JQ9WH;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SeeStar/PrefixHeader.pch";
 				INFOPLIST_FILE = SeeStar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
