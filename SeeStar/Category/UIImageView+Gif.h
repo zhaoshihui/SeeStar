@@ -1,0 +1,21 @@
+//
+//  UIImageView+Gif.h
+//  SeeStar
+//
+//  Created by Scarlett on 2017/4/7.
+//  Copyright © 2017年 crypond. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "ZSHAttributedImage.h"
+
+@interface UIImageView (Gif)
+
++(UIImageView *)imageViewWithGifName:(NSString *)imageName frame:(CGRect)frame;
+
+@end
+
+@interface NSString (imageType)
++ (ZSHImageType)contentTypeForImageName:(NSString *)imageName;
+
+@end
